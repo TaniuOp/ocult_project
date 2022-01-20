@@ -3,6 +3,7 @@ Proyecto para el Reto de tripulación The Bridge
 
 Equipo FullStack: Alvaro, Isa & Taniu 
 
+Para arrancar proyecto: npm start
 
 – config
 configure PostgreSQL database & Sequelize
