@@ -11,7 +11,7 @@ app.use(express.urlencoded({ extended: false }))
 
 
 require('dotenv').config();
-require('./utils/dbmongocon');
+require('./utils/dbMongocon');
 
 //Middlewares
 app.use(cors());
