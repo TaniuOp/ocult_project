@@ -103,10 +103,10 @@ const Profile = () => {
 
         {/* Contenedor chatBot*/}
         <div className="userBot">
-          <p>¿Puedes comprobarme una URL? ¿Qué contraseña es más segura?</p>
-          <p>Pregunta todas tus dudas a nuestro Chatbot</p>
+          <p className="robotP">¿Puedes comprobarme una URL? ¿Qué contraseña es más segura?</p>
+          <p className="robotBold">Pregunta todas tus dudas a nuestro Chatbot</p>
           <img src="../assets/icons/bot_robot.png" className="robot" alt="ChatBot" />
-          <button><NavLink to="/chatbot">ACCEDE AQUI</NavLink></button>
+          <button  className="robotBtn"><NavLink to="/chatbot">ACCEDE AQUI</NavLink></button>
 
         </div>
         {/* Contenedor listado Quizes*/}
