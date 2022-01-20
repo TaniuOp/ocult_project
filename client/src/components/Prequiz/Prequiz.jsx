@@ -39,7 +39,7 @@ const Prequiz = () =>{
     </div> */}
     <div className='div_btn' >
       <button className='btn_prequiz'> <Link to="/quiz">Acceder</Link> </button>
-      <button className='btn_prequiz'><Link to="/profile">Postponer</Link></button>
+      <button className='btn_prequiz'><Link to="/profile">Posponer</Link></button>
     </div>
   </div>
 
