@@ -239,9 +239,12 @@ button.robotBtn{
     align-items: center;
     width: 150px;
     height: 21px;
+    border: none;
 }
 
-
+button.robotBtn:visited{
+    color: #FFFFFF;
+    }
 
 @media only screen and (max-width: 1260px) {
     ul.aside > li{

@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: center;
     background:#E5E5E5 ;
+    background-color: #f4f4f4;
 }
 .div_welcome_prequiz{
     display: flex;
