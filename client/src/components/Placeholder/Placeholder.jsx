@@ -21,7 +21,7 @@ const Placeholder = () => {
         <h2 className="sorry working">Ocult está trabajando en esta funcionalidad para que muy pronto puedas disfrutar de ella. </h2>
         </div>
         <div>
-        <img src="../assets/icons/endesarrollo.png" alt="working" className="sorryImg"/>
+        <img src="../assets/icons/Endesarrollo.png" alt="working" className="sorryImg"/>
         </div>
       </div>
 

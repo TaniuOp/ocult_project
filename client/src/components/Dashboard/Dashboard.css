@@ -4,6 +4,11 @@
     color:#0070AD ;
 }
 
+.dashboard{
+  height: 100%;
+  margin-bottom: 1rem;
+}
+
 div.userAdminData {
     width: 100%;
     left: 612px;
