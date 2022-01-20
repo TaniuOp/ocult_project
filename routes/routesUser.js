@@ -6,7 +6,7 @@ const userControllers = require('../controllers/userControllers');
 const verifySignUp = require('../middlewares/verifySignUp');
 const verifyUserToken = require('../middlewares/verifyUserToken');
 
-app.get('/', (req,res) =>{
+router.get('/', (req,res) =>{
   res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
 
