@@ -43,7 +43,7 @@ const Card = ({question}) => {
           questionLength
         })
       }
-      await fetch ('http://localhost:5000/api/score', req);
+      await fetch ('/api/score', req);
       navigate('/profile');
     } catch (error) {
       console.log('error', error);

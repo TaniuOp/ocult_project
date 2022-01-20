@@ -16,7 +16,7 @@ const Profile = () => {
   useEffect(() => {
     async function fetchUserScore() {
       try {
-        const res = await axios.get(`http://localhost:5000/api/score?email=${email}`)
+        const res = await axios.get(`/api/score?email=${email}`)
         const lastScore = res.data[0].last_score
         const lastQuestions = res.data[0].last_quiz_questions
         setUserScore(lastScore)

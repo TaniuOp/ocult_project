@@ -1,6 +1,6 @@
 import jwt from 'jwt-decode'
 import axios from "axios";
-const API_URL = "http://localhost:5000/api/";
+const API_URL = "/api/";
 
 const register = async (id_company, username, email, password) => {
     try {

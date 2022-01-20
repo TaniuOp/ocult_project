@@ -15,16 +15,17 @@ require('./utils/dbmongocon');
 
 //Middlewares
 app.use(cors());
+app.use(express.static(path.join(__dirname, 'client/build')));
 
 // Port 
-const port = 5000;
+const PORT = process.env.PORT || 5000;
 
 // para traernos datos de objetos de un formulario,permite procesarlo y crear el objeto.Extended, no acepta datos como imagen
 app.use(cookieParser()); //Permite trabajar con cookies
 
 //Conexion server
-app.listen(port, () => {
-  console.log(`Example app listening at http://localhost:${port}`)
+app.listen(PORT, () => {
+  console.log(`Example app listening at http://localhost:${PORT}`)
 });
 
 // Routes 

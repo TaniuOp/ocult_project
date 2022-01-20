@@ -6,10 +6,13 @@ const userControllers = require('../controllers/userControllers');
 const verifySignUp = require('../middlewares/verifySignUp');
 const verifyUserToken = require('../middlewares/verifyUserToken');
 
-
-router.get('/', (req, res) => {
-  res.send("Localhost working!")
+app.get('/', (req,res) =>{
+  res.sendFile(path.join(__dirname+'/client/build/index.html'));
 });
+
+// router.get('/', (req, res) => {
+//   res.send("Localhost working!")
+// });
 
 //Routes 
 router.get('/api/questions', questionsApi);

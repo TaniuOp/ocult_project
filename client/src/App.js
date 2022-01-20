@@ -22,7 +22,7 @@ function App() {
   useEffect(() => {
     async function fetchQuestion() {
       try {
-        const res = await axios.get('http://localhost:5000/api/questions');
+        const res = await axios.get('/api/questions');
         const json = res.data;
         const questionsArray = json.map(element => {
           if(element.answers.length === 3){

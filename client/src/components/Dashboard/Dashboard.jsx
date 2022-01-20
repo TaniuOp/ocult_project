@@ -12,7 +12,7 @@ const Dashboard = () => {
   useEffect(() => {
     async function getUsers() {
       try {
-      const res = await axios.get(`http://localhost:5000/api/dashboard`);
+      const res = await axios.get(`/api/dashboard`);
       const json = res.data.rows;
       console.log('esto son los JSON', json);
       const userData = json.map(element => {
