@@ -1,0 +1,6 @@
+.totalQuiz{
+    height: 31.25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}

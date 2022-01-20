@@ -1,0 +1,14 @@
+.chatbotContainer{
+    display:flex;
+    justify-content: flex-start;
+}
+
+.chatbotDiv{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: flex-start;
+    width: 95%;
+}

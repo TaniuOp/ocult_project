@@ -1,0 +1,84 @@
+
+.div_container_prequiz {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url("../../../public/assets/icons/backgroundTest.jpg"); 
+    background-size: cover;
+   
+    
+}
+.div_welcome_prequiz{
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #0070AD;
+    align-content: stretch;
+    align-items: flex-start;
+    border-left: 4px #0070AD solid;
+    border-radius: 2px;
+    margin: 15px 60px;
+    
+}
+.div_text_prequiz_container{
+    margin-top: 20px;
+}
+.div_text_prequiz{
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    color: #0070AD;
+ 
+}
+
+.div_imag_prequiz{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+
+}
+
+.img_prequiz{
+    width: 3%;
+    padding-right: 16px;
+
+}
+.p_intro {
+    margin-left: 1rem;
+    font-size: 15px;
+    margin: 4px;
+}
+
+.div_btn{
+    display: flex;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    margin-top: 50px ;
+}
+.btn_prequiz {
+    margin: 15px;
+    background-color: #F4F4F4;
+    color: #0070AD;
+    border: 1px solid #0070AD;
+    border-radius: 25px;
+    padding: 1rem 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 21px;
+  
+}
+
+.btn_prequiz:hover{
+    box-shadow: 0 40px 12px rgba(70,150,240,0.25) inset, 0 -40px 12px rgba(70,150,240,0.25) inset;
+}
+
+.btn_prequiz:focus{
+    background-color: #0070AD;
+    color: #F4F4F4;
+}

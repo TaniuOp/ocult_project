@@ -1,0 +1,14 @@
+header {
+    justify-content: flex-start;
+    top: 0;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    background-color: #0070AD;
+    width: 100%;
+}
+
+.logoHeader {
+    margin-left: 1.5rem;
+    padding: 1rem;
+}
+

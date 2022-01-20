@@ -1,0 +1,161 @@
+[
+    {
+        "question": "¿Te conectas a un dispositivo ajeno a la empresa?",
+        "answers":[
+            {"answer_text": "No", "iscorrect": true},
+            {"answer_text": "Sí", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Efectivamente! Lo más seguro es evitar conectar tus dispositivos personales a la red de la empresa, eso hará más segura la red y menos fácil el acceso de hackers malintencionados.",
+        "negative_message": "El wifi gratis es tentador, pero conectarte a la red de la empresa con tu móvil personal u otro dispositivo ajeno a esta puede permitir el acceso de hackers a la red e infectarla con virus o robar datos importantes o incluso secuestrar la información de la empresa y quedarse sin trabajo."
+    },
+    {
+        "question": "Conectado a un wifi público lo mejor es revisar tus estados de cuenta",
+        "answers":[
+            {"answer_text": "No", "iscorrect": true},
+            {"answer_text": "Sí", "iscorrect": false}
+        ],
+        "affirmative_message": "Las redes de wifi públicas (cafés, bares, aeropuertos, establecimientos…) no son seguras, puede haber hackers con programas para ver el tráfico de usuarios y datos en la red y robar estos últimos.",
+        "negative_message": "¡Han robado tus datos! Las wifis públicas son vulnerables a hackers con programas que les permiten ver quienes están conectados y acceso a sus datos y equipos."
+    },
+    {
+        "question": "La contraseña es más segura si tiene:",
+        "answers":[
+            {"answer_text": "Mayúsculas, minúsculas, números y caracteres especiales", "iscorrect": true},
+            {"answer_text": "Mi nombre", "iscorrect": false},
+            {"answer_text": "Fecha de nacimiento", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Claro que sí! Cuanto más variados sean los valores de la contraseña, más difícil es descifrarla  y más segura es.",
+        "negative_message": "¡Nos gustaría decir que 123 es segura! Sin embargo sería muy fácil descubrirla y podrían hackear tu cuenta en segundos."
+    },
+    {
+        "question": "¿Cada cuánto se recomienda cambiar la contraseña?",
+        "answers":[
+            {"answer_text": "Cada mes", "iscorrect": true},
+            {"answer_text": "Cada seis meses", "iscorrect": false},
+            {"answer_text": "Nunca", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Súper! Estás en lo correcto, las contraseñas se deben cambiar con una frecuencia de 1 mes para mantener más seguras tus plataformas. Los hackers son muy ingeniosos y persistentes, mejor que les cueste.",
+        "negative_message": "¡Sabemos de tu creatividad! Aun así , hay herramientas que te pueden ayudar a gestionar tus contraseñas (crearlas, guardarlas, etc)."
+    },
+    {
+        "question": "¿Cuál de éstas direcciones de correo le parece segura?",
+        "answers":[
+            {"answer_text": "ayuda@bancosantander.com", "iscorrect": true},
+            {"answer_text": "ayudabancosantandr@gmail.com", "iscorrect": false},
+            {"answer_text": "ayuda@santanderbanko.com", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Máquina total! los detalles hacen la diferencia, en el caso de los correos la diferencia entre uno oficial y uno falso puede ser una letra como es el caso de  ayuda@santanderbanko.com.",
+        "negative_message": "¡Cuidado! Los correos son engañosos porque pueden diferenciarse los oficiales de los falsos por una letra ya sea que sobre, falte o sea diferente al original. Al recibir correos verifica la dirección desde donde lo recibes y la información que te piden. Antes de dar información verifica que sea seguro."
+    },
+    {
+        "question": "¿Con qué frecuencia es necesario actualizar los sistemas en los dispositivos de la empresa?",
+        "answers":[
+            {"answer_text": "Todos los días a ser posible", "iscorrect": true},
+            {"answer_text": "Cada dos semanas", "iscorrect": false},
+            {"answer_text": "Una vez cada cuatro meses", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Exacto! Las actualizaciones son importantes, ya que corrigen fallos y brechas de seguridad identificadas en el sistema, cuanto más actualices el sistema, más seguro será.",
+        "negative_message": "¡¡Mejor tarde que nunca!! Los sistemas son actualizados para hacerlos más seguros ante ciberataques, mejor hacerte una rutina diaria de actualización de sistemas."
+    },
+    {
+        "question": "¿Es habitual que te pidan datos personales o bancarios para recuperar una cuenta?",
+        "answers":[
+            {"answer_text": "No, nunca hay que dar datos bancarios, salvo que estemos hablando con un agente bancario de soporte", "iscorrect": true},
+            {"answer_text": "Tal vez, solo si me obligan a mandarlo por email", "iscorrect": false},
+            {"answer_text": "Sí, en cualquier proceso de recuperación de cuenta", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Correcto! Nunca hay que dar los datos bancarios para recuperar una cuenta en una plataforma que nada tenga que ver con el banco.",
+        "negative_message": "¡Mejor que no! Salvo que estés haciendo un trámite de recuperación de cuenta bancaria por medio del servicio de atención al cliente, es innecesario dar tus datos bancarios para recuperar una cuenta. ¡Cuida tus datos!"
+    },
+    {
+        "question": "El Phishing es:",
+        "answers":[
+            {"answer_text": "Robo de credenciales a través de links fraudulentos recibidos por correo u otros medios, que parecen ser oficiales de la empresa", "iscorrect": true},
+            {"answer_text": "Restablecimiento de contraseña", "iscorrect": false},
+            {"answer_text": "Introducción de código maligno para acceder a la base de datos de una empresa", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Efectivamente! Es un ciberataque en el que se recibe un correo, mensaje u otra notificación con un enlace malicioso en el que se piden credenciales de acceso y al introducirlas son robadas.",
+        "negative_message": "¡Lo aprenderás! Phishing es el robo de credenciales a través de links fraudulentos recibidos por correo u otros medios, que parecen ser oficiales de la empresa. Al acceder a la página te piden introducir tus datos de acceso y son robados."
+    },
+    {
+        "question": "Pasos para detectar un phishing:",
+        "answers":[
+            {"answer_text": "Comprobar la url de redirección, comprobar el email emisor y asegurarse de que viene del dominio correcto.", "iscorrect": true},
+            {"answer_text": "Descargar los archivos adjuntos y ver que no le pasa nada a nuestro ordenador.", "iscorrect": false},
+            {"answer_text": "Hacer click a todo y dar todos nuestros datos para comprobar si es correcto.", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Excelente! Los tres pasos esenciales para mantener la seguridad del sistema son comprobar la url de redirección, comprobar el email emisor y asegurarse de que viene del dominio correcto. Existen herramientas que te permiten saber si una url es segura, las podrás ver al finalizar el test.",
+        "negative_message": "¡Mejor ser cuidados@! Para detectar el phishing debes comprobar la url de redirección, comprobar el email emisor y asegurarse de que viene del dominio correcto."
+    },
+    {
+        "question": "¿Cuál de estas urls son seguras?",
+        "answers":[
+            {"answer_text": "https://facebook.com/", "iscorrect": true},
+            {"answer_text": "http://faceb00k.com/", "iscorrect": false},
+            {"answer_text": "http://facebuk.com/", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Cierto, que detallista! Al igual que en el caso de los correos, la diferencia entre un enlace oficial y uno falso puede ser más difícil de ver (un cambio de letra, una letra de menos o más).",
+        "negative_message": "¡Alerta a los detalles! Los enlaces son engañosos, pueden diferenciarse los oficiales de los falsos por pequeños cambios."
+    },
+    {
+        "question": "¿Cómo mantener tus cuentas a salvo?",
+        "answers":[
+            {"answer_text": "Verificación en dos pasos (confirmación vía SMS)", "iscorrect": true},
+            {"answer_text": "Tener un usuario con muchos números", "iscorrect": false},
+            {"answer_text": "Todas las anteriores son correctas", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Bien visto! La verificación en dos pasos hace más segura tus cuentas, ya que  si un hacker descubre tu contraseña, necesita también tu teléfono o la llave de seguridad para poder ingresar a la cuenta.",
+        "negative_message": "¡Podría parecer la correcta! En este caso la respuesta correcta es la verfiicación en dos pasos, ya que al necesitar la contraseña y el código de acceso recibido por SMS, es más difícil para los hackers conseguir acceder a tus cuentas."
+    },
+    {
+        "question": "La diferencia entre “http” y “https” es:",
+        "answers":[
+            {"answer_text": "La “s” hace referencia a seguridad", "iscorrect": true},
+            {"answer_text": "Ninguna", "iscorrect": false},
+            {"answer_text": "“https” es la versión nueva", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Sí señor! “https” es un protocolo de comunicación de Internet que protege la integridad y la confidencialidad de los datos de los usuarios entre sus ordenadores y el sitio web. Agrega 3 capas de seguridad con “cifrado, integridad y autenticación de los datos”.",
+        "negative_message": "¡Quizás la próxima! El protocolo https hace más segura la navegación en internet con “cifrado, integridad y autenticación de los datos”."
+    },
+    {
+        "question": "¿Qué hacer si cae en las redes de un phishing?",
+        "answers":[
+            {"answer_text": "Ambas respuestas son correctas", "iscorrect": true},
+            {"answer_text": "Comprobar que tiene activada la verificación en dos pasos, avisar al soporte técnico de IT de su trabajo o escuela e  informar a las autoridades", "iscorrect": false},
+            {"answer_text": "Escanear nuestro dispositivo con un antivirus actualizado, anotar todos los detalles del incidente y cambiar la contraseña de las cuentas afectadas", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Justo! Al tener a detalle los datos que han podido robar y de qué forma, será más sencillo informar al equipo de IT o a las autoridades, del mismo modo cambiar las contraseñas y tener activa la verificación en 2 pasos ayudan a securizar tu cuenta de nuevo.",
+        "negative_message": "¡Con algunos pasos más! Cuanto más detallado el cómo sucedió y qué te han podido robar , más fácil será informar a quienes sea necesario, por otra parte cambiar las contraseñas y tener activa la verificación en 2 pasos ayudan a securizar tu cuenta de nuevo."
+    },
+    {
+        "question": "¿Cómo proteges tu información cuando usas una app?",
+        "answers":[
+            {"answer_text": "Denegar todos los permisos", "iscorrect": true},
+            {"answer_text": "Negar solo algunos permisos", "iscorrect": false},
+            {"answer_text": "Otorgarle todos los permisos a la app", "iscorrect": false}
+        ],
+        "affirmative_message": "Un no a tiempo puede salvar nuestros datos y si una aplicación de alarma pide acceso a la cámara,  en efecto nos debería alarmar ¿Qué clase de datos quiere recolectar?.",
+        "negative_message": "Entregas la llave de tu casa a cualquiera que esté detrás de la app, podrá tener tus datos más personales y sensibles, grabaciones de tu voz, videos, contactos, ubicación… la información es poder y en manos equivocadas tus datos pueden hacerte vulnerable, ten cuidado con los permisos que das."
+    },
+    {
+        "question": "¿Qué contraseña es más segura?",
+        "answers":[
+            {"answer_text": "DvDbL*$6aUs0", "iscorrect": true},
+            {"answer_text": "Boat1234flow", "iscorrect": false},
+            {"answer_text": "into-482inst", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Muy bien! Una contraseña es más difícil de descifrar si está formada por elementos sin relación, intercambiando mayúsculas y minúsculas, símbolos y números.",
+        "negative_message": "¡Puede mejorar! Cuanto más compleja, más segura se hace la contraseña. Ten en cuenta que para ser segura debe ser una combinación de letras, números y símbolos, sin tildes."
+    },
+    {
+        "question": " ¿Cuál es la manera más habitual en la que se distribuye el phishing?",
+        "answers":[
+            {"answer_text": "Correo electrónico, mensaje de texto (SMS) o canales de comunicación de telefonía móvil", "iscorrect": true},
+            {"answer_text": "Páginas web en general", "iscorrect": false},
+            {"answer_text": "Cookies", "iscorrect": false}
+        ],
+        "affirmative_message": "¡Lo sabes! Se suele distribuir por todos esos canales, como enlaces o archivos de descarga, que pueden estar infectados o redirigir sin que te des cuenta a una página fraudulenta donde te piden credenciales (usuario y contraseña).",
+        "negative_message": "¡Mucho cuidado! Puede que al hacer click en un enlace recibido por correo electrónico o redes parezca que estamos en la página oficial, pero si el enlace es fraudulento te podrá redirigir a una página falsa y robar tus datos o descargar archivos con virus."
+    }
+    
+]

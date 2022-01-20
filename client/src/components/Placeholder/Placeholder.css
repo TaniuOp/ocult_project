@@ -1,0 +1,20 @@
+h2.sorry{
+    width: 37rem;
+    font-weight: normal;
+    font-size: 2rem;
+    color: #0070AD;
+    text-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+h1.working{
+  font-weight: bold;
+}
+
+.placeholderContainer{
+    display: flex;
+    align-items: center;
+}
+
+img.sorryImg{
+    width: 90%;
+}

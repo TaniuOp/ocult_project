@@ -1,0 +1,244 @@
+/* General container */
+.userDashboardContainer{
+    background-color: #E5E5E5;
+    display:flex;
+}
+
+/* Lateral menu */
+.asideNav{
+    height: 100vh;
+    padding:0;
+    margin: 0; 
+}
+
+aside a{
+    color: #696F79  
+}
+
+ul.aside > li{
+    list-style: none;
+    margin-bottom: 1.5rem;
+    padding-top: 1rem;
+    width: 20%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+a.aside{
+    margin-left: 0.5rem;
+}
+
+.userDashboardData{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+div.rowOne{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+div.rowTwo{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    width: 100%px;
+    margin-left: 3rem;
+    padding: 0.5rem;
+}
+div.rowThree{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-left: 3rem;
+    padding: 0.5rem;
+    margin-bottom: 2rem;
+}
+
+
+.userImg{
+    width: 6rem;
+    height: 6rem;
+    /* left: 640px; */
+    /* top: 186px; */
+    /* box-shadow: 0px 15px 40px 5px #ededed; */
+    border-radius: 179px;
+    /* background-position: center; */
+    padding: 0.5rem;
+}
+
+.userData {
+    width: 40%;
+    height: 78%;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 40px 5px #EDEDED;
+    border-radius: 16px;
+    display: flex;
+    height: 90%;
+}
+
+.progress{
+    width: 80%;
+}
+
+.userPersonalData{
+ text-align: left;
+ padding: 1rem;
+ color: #2A2B2A;
+}
+
+.userRecomendation {
+    width: 40%;
+    color: white;
+}
+.userScoreToDo{
+    background: #0070AD;
+    box-shadow: 0px 15px 40px 5px #EDEDED;
+    border-radius: 16px;
+}
+
+.userScoreGood{
+    background: #18C3AE;
+    box-shadow: 0px 15px 40px 5px #ededed;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0.5rem;
+}
+
+.userScoreBad{
+    background: #FF928E;
+    box-shadow: 0px 15px 40px 5px #EDEDED;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 0.5rem;
+}
+
+img.recomendation{
+    width: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.userGraph {
+    background: #FFFFFF;
+    box-shadow: 0px 15px 40px 5px #ededed;
+    border-radius: 16px;
+    color: #2A2B2A;
+    height: 100%;
+    padding: 0 0.5rem;
+}
+
+img.userGraph{
+    width: 4.43rem;
+    height: 6.25rem;
+    left: 638px;
+}
+
+
+.userBot {
+    color: #2A2B2A;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #DCEEF9;
+    border: 1px solid #BEE8FF;
+    box-shadow: 0px 15px 40px 5px #ededed;
+    border-radius: 16px;
+    padding: 1rem;
+    height: 65%;
+}
+
+.robot{
+    width: 15%;
+}
+
+.userBot *{
+    padding: 0.2rem;
+}
+
+
+.userQuizes { 
+    background: #FFFFFF;
+    box-shadow: 0px 15px 40px 5px #ededed;
+    border-radius: 16px; 
+}
+
+.userQuizes *{
+    padding: 0.2rem;
+}
+
+.quizes {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.imgatkcontainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.imgatck{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+img.quiz{
+    width: 9rem;
+    height: 5rem;
+    /* left: 1136px; */
+    /* top: 732px; */
+    box-shadow: 0px 15px 40px 5px #ededed;
+    border-radius: 8px;
+}
+
+
+@media only screen and (max-width: 1260px) {
+    ul.aside > li{
+        list-style: none;
+        margin-bottom: 17%;
+        padding-top: 10%;
+        width: 171px;
+        left: 213px;
+        top: 147px;
+        border-radius: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    div.rowOne{
+        width: 500px;
+        height:auto;
+    }
+    div.rowtwo{
+        width: 500px;
+        height:auto;
+    }
+    div.rowThree{
+        width: 500px;
+        height:auto;
+    }
+    .userGraph {
+        width: 600px;
+        height:auto;
+    }
+    .userData, .userGraph, .userBot{
+        margin-bottom: 20px;
+    }
+}

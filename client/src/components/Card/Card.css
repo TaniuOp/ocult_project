@@ -1,0 +1,156 @@
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+.question{
+    display: flex;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    justify-content: space-around;
+    border-left: 4px #0070AD solid;
+}
+
+.questionText{
+    color: #0070AD;
+    margin-bottom: 0.8rem;
+}
+
+.feedbackText{
+    color: #2A2B2A; 
+    /* width: 40%;
+    margin-left: auto;
+    margin-right: auto; */
+}
+
+.feedbackText * {
+    padding: 0.4rem;
+}
+
+.answerResult{
+    color: #0070AD;
+    font-weight: bold;
+    text-align: initial;
+}
+
+.btnQuiz{
+    font-size: 1rem;
+    background-color: #F4F4F4;
+    color: #0070AD;
+    border: 1px solid #0070AD;
+    border-radius: 25px;
+    padding: 1rem 3rem;
+    cursor: pointer;
+}
+
+.btnQuiz:hover{
+    box-shadow: 0 40px 12px rgba(70,150,240,0.25) inset, 0 -40px 12px rgba(70,150,240,0.25) inset;
+}
+
+.btnQuiz:focus{
+    background-color: #0070AD;
+    color: #F4F4F4;
+}
+
+.nxt{
+    height: 15%;
+    cursor: pointer;
+}
+
+.nxt:hover{
+    box-shadow: 0 40px 12px rgba(70,150,240,0.25) inset, 0 -40px 12px rgba(70,150,240,0.25) inset;
+}
+
+.mesgTxt{
+    display: flex;
+    text-align: initial;
+    align-items: center;
+}
+
+.mesgTxt *{
+    padding: 1rem;
+}
+
+.qContainer{
+    width: 50%;
+    
+}
+
+.aContainer{
+    width: 50%;
+}
+
+.btnContaier{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btnContaier * {
+    margin: 0.5rem 0;
+}
+
+.msgp{
+    width: 50%;
+}
+
+.resultHeader{
+    color: #0070AD;
+    font-weight: bold;
+    margin-left: 6rem;
+    text-align: left;
+    padding: 4rem;
+    font-size: 2rem;
+}
+
+.finalDiv{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.qresults{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-around;
+    width: 60%;
+}
+
+.toKnowMore{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 10rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.interest{
+    color: #0070AD;
+    font-weight: bold;
+    /* margin-left: 6rem; */
+    /* text-align: left; */
+    /* padding: 4rem; */
+    font-size: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.knowledge{
+    color: #2A2B2A;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;  
+}
+
+.greyText{
+    color: #2A2B2A;
+    padding: 0.1rem;
+}
+
+.blueback{
+    background-color: #B0F0E6;
+    padding: 0.5rem;
+    width: 10rem;
+    border-radius: 5px;
+}
