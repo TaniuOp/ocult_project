@@ -6,7 +6,6 @@ import axios from "axios";
 
 
 const Profile = () => {
-
   const [userScore, setUserScore] = useState();
   const [userQuestions, setUserQuestions] = useState();
 
